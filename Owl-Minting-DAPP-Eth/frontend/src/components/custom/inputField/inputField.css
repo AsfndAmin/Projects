@@ -1,0 +1,36 @@
+.input-container{
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+    color: black !important;
+}
+
+.css-cio0x1-MuiInputBase-root-MuiFilledInput-root:after {
+    border-bottom: 2px solid #f7f7f7 !important;
+
+}
+
+.css-cio0x1-MuiInputBase-root-MuiFilledInput-root {
+    border-bottom: 2px solid #f7f7f7 !important;
+
+}
+
+
+.css-10botns-MuiInputBase-input-MuiFilledInput-input{
+    color: white !important;
+}
+.css-au3a9q-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: white !important;
+   
+}
+
+.css-e4w4as-MuiFormLabel-root-MuiInputLabel-root{
+    color: white !important;
+}
+
+.css-au3a9q-MuiFormLabel-root-MuiInputLabel-root{
+    color: white !important;
+}
+

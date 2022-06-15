@@ -1,0 +1,287 @@
+.nftImg {
+    height: 5rem;
+  }
+  
+  .datatable-crud-demo .table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 960px) {
+    .datatable-crud-demo .table-header {
+      align-items: flex-start;
+    }
+  }
+  .datatable-crud-demo .product-image {
+    width: 100px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  .datatable-crud-demo .p-dialog .product-image {
+    width: 150px;
+    margin: 0 auto 2rem auto;
+    display: block;
+  }
+  .datatable-crud-demo .confirmation-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (max-width: 960px) {
+    .datatable-crud-demo .p-toolbar {
+      flex-wrap: wrap;
+    }
+    .datatable-crud-demo .p-toolbar .p-button {
+      margin-bottom: 0.25rem;
+    }
+    .datatable-crud-demo .table-header {
+      flex-direction: column;
+    }
+    .datatable-crud-demo .table-header .p-input-icon-left,
+    .datatable-crud-demo .table-header input {
+      width: 100%;
+    }
+  }
+  
+  /* Update Info */
+  
+  /* reward */
+  .rewardInput {
+    margin-left: 1rem;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+  }
+  .rewardInput:focus {
+    outline: none;
+    border-bottom: 2px solid #3b82f6;
+  }
+  /* reward */
+  
+  .labelName,.labelDesc,.labelDna,.labelEdition
+  {
+      font-size: 0.8rem;
+      font-weight: 600;
+  }
+  
+  .updateInputName {
+    margin-left: 5.5rem;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+  }
+  .updateInputName:focus {
+    outline: none;
+    border-bottom: 2px solid #3b82f6;
+  }
+  
+  
+  
+  
+  .updateInputDesc {
+    margin-left: 3.2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+  }
+  .updateInputDesc:focus {
+    outline: none;
+    border-bottom: 2px solid #3b82f6;
+  }
+  
+  .updateInputDna {
+    margin-left: 6.2rem;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+  }
+  .updateInputDna:focus {
+    outline: none;
+    border-bottom: 2px solid #3b82f6;
+  }
+  
+  .updateInputEdition {
+    margin-left: 4.999rem;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+  }
+  .updateInputEdition:focus {
+    outline: none;
+    border-bottom: 2px solid #3b82f6;
+  }
+  
+  .attributeInput0 {
+    margin-left: 2.7rem;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+  }
+  .attributeInput0:focus {
+    outline: none;
+    border-bottom: 2px solid #3b82f6;
+  }
+  
+  .attributeInput1 {
+      margin-left: 1.7rem;
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 1rem;
+      font-weight: 500;
+  
+      margin-bottom: 0.7rem;
+    }
+    .attributeInput1:focus {
+      outline: none;
+      border-bottom: 2px solid #3b82f6;
+    }
+    
+    .attributeInput2 {
+      margin-left: 4rem;
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 1rem;
+      font-weight: 500;
+  
+      margin-bottom: 0.7rem;
+    }
+    .attributeInput2:focus {
+      outline: none;
+      border-bottom: 2px solid #3b82f6;
+    }
+   
+    .attributeInput3 {
+      margin-left: 5.7rem;
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 1rem;
+      font-weight: 500;
+  
+      margin-bottom: 0.7rem;
+    }
+    .attributeInput3:focus {
+      outline: none;
+      border-bottom: 2px solid #3b82f6;
+    }
+    
+   
+    .attributeInput4 {
+      margin-left: 5.99rem;
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 1rem;
+      font-weight: 500;
+  
+      margin-bottom: 0.7rem;
+    }
+    .attributeInput4:focus {
+      outline: none;
+      border-bottom: 2px solid #3b82f6;
+    }
+    
+  
+     
+    .attributeInput5 {
+      margin-left: 4.4rem;
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 1rem;
+      font-weight: 500;
+  
+      margin-bottom: 0.7rem;
+    }
+    .attributeInput5:focus {
+      outline: none;
+      border-bottom: 2px solid #3b82f6;
+    }
+    
+    
+     
+    .attributeInput6 {
+      margin-left: 5.19rem;
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 1rem;
+      font-weight: 500;
+  
+      margin-bottom: 0.7rem;
+    }
+    .attributeInput6:focus {
+      outline: none;
+      border-bottom: 2px solid #3b82f6;
+    }
+  
+    .attributeInput7 {
+      margin-left: 5.69rem;
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 1rem;
+      font-weight: 500;
+  
+      margin-bottom: 0.7rem;
+    }
+    .attributeInput7:focus {
+      outline: none;
+      border-bottom: 2px solid #3b82f6;
+    }
+  
+    
+    .attributeInput8 {
+      margin-left: 3.2rem;
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 1rem;
+      font-weight: 500;
+  
+      margin-bottom: 0.7rem;
+    }
+    .attributeInput8:focus {
+      outline: none;
+      border-bottom: 2px solid #3b82f6;
+    }
+  
+    
+    
+    .attributeInput9 {
+      margin-left: 1.7rem;
+      border: none;
+      border-bottom: 2px solid black;
+      font-size: 1rem;
+      font-weight: 500;
+  
+      margin-bottom: 0.7rem;
+    }
+    .attributeInput9:focus {
+      outline: none;
+      border-bottom: 2px solid #3b82f6;
+    }
+  
+  
+  
+  .attributeLabel0,
+  .attributeLabel1,
+  .attributeLabel2,
+  .attributeLabel3,
+  .attributeLabel4,
+  .attributeLabel5,
+  .attributeLabel6,
+  .attributeLabel7,
+  .attributeLabel8,
+  .rewardLable,
+  .categoryLabel,
+  .attributeLabel9 {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  

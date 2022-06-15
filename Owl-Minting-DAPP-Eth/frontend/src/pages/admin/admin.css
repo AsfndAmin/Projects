@@ -1,0 +1,114 @@
+
+.admin-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-content{
+    padding: 2rem;
+    background-color: #54595F;
+}
+
+.inputFields{
+    width: 50%;
+    margin: auto;
+}
+
+.btn-add-addresses{
+    text-align: center;
+    margin: 1.2rem;
+}
+
+.btn-add-addresses button{
+    background-color: #171717;
+    color: white;
+    padding: 0.5rem;
+    width: 45%;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #FFEE00;
+}
+
+.btn-add-addresses button:hover{
+    background-color: #54595F;
+}
+
+.div-addresses-list{
+    width: 50%;
+    margin: auto;
+    padding: 1.2rem;
+}
+
+.tbl-addresses{
+    width: 100%;
+}
+.values{
+    text-align: end;
+}
+
+.btn-remove-addresses{
+    border: none;
+    background-color: #54595F;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.upload-csv-container{
+    width: 50%;
+    margin: auto;
+    padding: 1.2rem;
+}
+
+
+@media (max-width:950px)
+{
+    .inputFields {
+        width: 70%;
+    }
+    .div-addresses-list{
+        width: 70%;
+    }
+    .upload-csv-container{
+        width: 70%;
+    }
+    .btn-add-addresses button{
+        width: 65%;
+    }
+}
+
+@media (max-width:800px)
+{
+    .inputFields{
+        width: 80%;
+    }
+    .div-addresses-list{
+        width: 80%;
+    }
+    .upload-csv-container{
+        width: 80%;
+    }
+    .btn-add-addresses button{
+        width: 75%;
+    }
+}
+
+@media (max-width:450px)
+{
+    .inputFields{
+        width: 95%;
+    }
+    .div-addresses-list{
+        width: 95%;
+    }
+
+    .upload-csv-container{
+        width: 95%;
+    }
+    .btn-add-addresses button{
+        width: 90%;
+    }
+}
